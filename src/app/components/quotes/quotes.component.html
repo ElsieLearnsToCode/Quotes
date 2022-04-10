@@ -3,12 +3,11 @@
         <h1>
             Quotes
         </h1>
-        <div>
-            <h5>
-                <p></p>
+        <div >
+            <div *ngFor="let quote of quotes, let i = index">
+                <h5>{{quote.quote}}</h5>
                 <a class="btn btn-info" href="">See Quote Details</a>
-            </h5>
-        </div>
+            </div>
 
     </div>
 </div>
