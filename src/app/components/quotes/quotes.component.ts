@@ -13,6 +13,13 @@ export class QuotesComponent implements OnInit {
    new Quote ("After climbing a great hill, one only finds that there are many more hills to climb.", "Nelson Mandela", "Becky", "18/04/2021", 0, 0),
    new Quote ("As we let our own light shine, we unconsciously give other people permission to do the same.", "Nelson Mandela", "Edith", "02/04/2022", 0, 0)
   ]
+  
+  quoteDelete(deleteQuote: boolean, index: number) {
+    if(deleteQuote) {
+      this.quotes.splice(index, 1);
+    }
+  }
+
 
   showQuoteDetails(index: number) {
     this.quotes[index].showQuoteDetails = !this.quotes[index].showQuoteDetails;

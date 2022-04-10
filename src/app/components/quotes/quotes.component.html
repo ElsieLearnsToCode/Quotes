@@ -11,11 +11,12 @@
                                 <div class="card-body">
                                   <p class="card-text"><p>{{quote.quote}}</p>
                                   <a (click)="showQuoteDetails(i)" class="btn btn-info">See Quote Description</a>
-                                  <app-quote-details *ngIf="quote.showQuoteDetails" [quotes]="quote" ></app-quote-details>
+                                  <app-quote-details *ngIf="quote.showQuoteDetails" [quotes]="quote" (deleteQuote)="quoteDelete($event, i)" ></app-quote-details>
                                 </div>
                               </div>
                         </div>
                     </div>
             </div>
+
         </div>
     </div>
