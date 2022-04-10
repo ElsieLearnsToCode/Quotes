@@ -11,7 +11,7 @@
                                 <div class="card-body">
                                   <p class="card-text"><p>{{quote.quote}}</p>
                                   <a class="btn btn-info" href="">See Quote Description</a>
-                                  <app-quote-details [quotes]="quote" ></app-quote-details>
+                                  <app-quote-details *ngIf="quote.showQuoteDetails" [quotes]="quote" ></app-quote-details>
                                 </div>
                               </div>
                         </div>
