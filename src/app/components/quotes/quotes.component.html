@@ -10,7 +10,7 @@
                             <div class="card" style="width: 18rem;">
                                 <div class="card-body">
                                   <p class="card-text"><p>{{quote.quote}}</p>
-                                  <a class="btn btn-info" href="">See Quote Description</a>
+                                  <a (click)="showQuoteDetails(i)" class="btn btn-info">See Quote Description</a>
                                   <app-quote-details *ngIf="quote.showQuoteDetails" [quotes]="quote" ></app-quote-details>
                                 </div>
                               </div>
