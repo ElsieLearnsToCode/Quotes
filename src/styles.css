@@ -1,7 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
 .card {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    display: flex;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 5px;
 }
+
+
+
