@@ -4,6 +4,6 @@
     <p><b>Date Submitted</b>{{quotes.dateSubmitted}}</p>
     <p><img src="https://www.svgrepo.com/show/337033/thumbs-up.svg" style="width: 50px;" alt=""> {{quotes.upvotes}}</p>
     <p><img src="https://www.svgrepo.com/show/388763/thumbs-down.svg" style="width: 50px;" alt="">{{quotes.downvotes}}</p>
-    <button class="btn btn-danger">DELETE QUOTE</button>
+    <button class="btn btn-danger" (click)="deleteQuoteFromPage(true)"> DELETE QUOTE</button>
 
 </div>
