@@ -1,22 +1,21 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-md-6">
                 <h1 style="text-align: center;">
                     Quotes
                 </h1>
-                <div class="col-sm-9">
                     <div class="all-cards">
                         <div *ngFor="let quote of quotes, let i = index">
                             <div class="card" style="width: 18rem;">
                                 <div class="card-body">
                                   <p class="card-text"><p>{{quote.quote}}</p>
-                                  <a class="btn btn-info" href="">See Quote Details</a>
+                                  <a class="btn btn-info" href="">See Quote Description</a>
+                                  <app-quote-details [quotes]="quote" ></app-quote-details>
                                 </div>
                               </div>
                         </div>
                     </div>
-            </div>
             </div>
         </div>
     </div>
