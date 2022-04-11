@@ -1,5 +1,5 @@
 <h1>Submit Your Quotes Below</h1>
-<form (ngSubmit)="submitQuote">
+<form action="">
 
     <div class="mb-3">
         <label for="quote" class="form-label" >Quote</label>
@@ -15,8 +15,8 @@
         <label for="yourName" class="form-label">Submitted By:</label>
         <input type="text" class="form-control" id="yourName" placeholder="Enter Your Name" [(ngModel)]="submittedBy">
       </div>
-      <button class="btn btn-info" type="submit">Submit Quote</button>
-</form>
+      <button (click)="submitQuote ()" class="btn btn-info" type="submit">Submit Quote</button>
+    </form>
 <br>
 
 <div>

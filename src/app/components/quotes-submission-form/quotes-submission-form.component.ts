@@ -8,18 +8,26 @@ import { Form } from 'src/app/classes/form';
   styleUrls: ['./quotes-submission-form.component.css']
 })
 export class QuotesSubmissionFormComponent implements OnInit {
-  quote !: string;
-  quoteAuthor !: string;
-  submittedBy !: string;
-  date !: Date;
-  newQuote: any;
+  // form: Form[] = [];
+  // newForm!: string;
+
+
+  // form: Form[] = [];
+  // newForm!: string;
+  quote!: string;
+  quoteAuthor!: string;
+  submittedBy!: string;
+  date!: Date;
+  newQuote!: any;
   
-  quotes = [
-  ]
+  form = [
+    new Form("ghkj","Andrew","elsie", new Date )
+  ];
 
   submitQuote () {
     this.newQuote (this.quote, this.quoteAuthor, this.submittedBy, new Date())
-    this.quotes.push();
+    this.form.push();
+    // let form = new Form("yolo", "abcde", "Elsie", new Date());
   }
 
 
