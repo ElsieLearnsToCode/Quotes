@@ -1,27 +1,41 @@
-# QuotesApp
+# Quotable Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+# Author
+Elsie Akoth
 
-## Development server
+# Description
+This is an Angular CLI website where users may submit/share or read quotes that they find inspirational or relevant. Users can also vote for the quotes that they find inspirational or downvote terrible quotes.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Live Page
 
-## Code scaffolding
+# Behaviour Driven Development (BDD)
+A user is able to:
+* Submit their own quote(s) using a submission form.
+* View quotes submitted by other users.
+* Delete their quotes.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Known Bugs
+ At present, a user is unable to:
+* upvote or downvote a quote.
 
-## Build
+# Setup/Installation Requirements
+* Open Terminal {Ctrl+Alt+T}
+* git clone https://github.com/ElsieLearnsToCode/Tezza_Pizzeria
+* cd Tezzas_Pizza
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Technologies Used
+* HTML5
+* CSS & Bootstrap CSS
+* Javascript & Typescript
+* This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Support and Contact Details
+For any concerns, suggestions or feedback, reach me through (elsieakoth21@gmail.com)
 
-## Running end-to-end tests
+# License
+MIT License
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Copyright (c) {2022} Elsie Akoth.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

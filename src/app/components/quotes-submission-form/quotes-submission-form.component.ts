@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Form } from 'src/app/classes/form';
+
 
 @Component({
   selector: 'app-quotes-submission-form',
@@ -6,6 +8,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./quotes-submission-form.component.css']
 })
 export class QuotesSubmissionFormComponent implements OnInit {
+  quote !: string;
+  quoteAuthor !: string;
+  submittedBy !: string;
+  date !: Date;
+  newQuote: any;
+  
+  quotes = [
+  ]
+
+  submitQuote () {
+    this.newQuote (this.quote, this.quoteAuthor, this.submittedBy, new Date())
+    this.quotes.push();
+  }
+
 
   constructor() { }
 
