@@ -20,8 +20,13 @@ A user is able to:
 
 # Setup/Installation Requirements
 * Open Terminal {Ctrl+Alt+T}
+<<<<<<< HEAD
 * git clone https://github.com/ElsieLearnsToCode/Tezza_Pizzeria
 * cd Tezzas_Pizza
+=======
+* git clone https://github.com/ElsieLearnsToCode/Quotes
+* cd Quotes
+>>>>>>> b01f9ebdb48ed8d0747987e0ff5707a61a1f1af6
 
 # Technologies Used
 * HTML5
